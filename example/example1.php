@@ -18,8 +18,8 @@ $pipe = new \gamringer\Pipe\Pipe([
         ]),
         new \gamringer\Pipe\Example\FooMiddleware('7'),
     ]),
-    new \gamringer\Pipe\Example\StaticMiddleware(new \GuzzleHttp\Psr7\Response()),
 ]);
+$pipe->push(new \gamringer\Pipe\Example\StaticMiddleware(new \GuzzleHttp\Psr7\Response()));
 
 $response = $pipe->handle($request);
 
