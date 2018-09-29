@@ -13,7 +13,7 @@ class Pipe implements MiddlewareInterface, RequestHandlerInterface
 {
     protected $content = [];
 
-    function __construct(array $initialStack)
+    function __construct(array $initialStack = [])
     {
         foreach ($initialStack as $item) {
             $this->push($item);

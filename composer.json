@@ -20,10 +20,12 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "gamringer\\Pipe\\Example\\": "example"
+            "gamringer\\Pipe\\Example\\": "example",
+            "gamringer\\Pipe\\Tests\\": "tests"
         }
     },
     "require-dev": {
-        "guzzlehttp/psr7": "^1.4"
+        "guzzlehttp/psr7": "^1.4",
+        "phpunit/phpunit": "^7"
     }
 }
