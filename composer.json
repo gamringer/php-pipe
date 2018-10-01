@@ -1,5 +1,5 @@
 {
-    "name": "gamringer/php-pipe",
+    "name": "gamringer/pipe",
     "description": "PSR-15 HTTP Middleware Dispatcher",
     "type": "library",
     "license": "MIT",
