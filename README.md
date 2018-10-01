@@ -1,36 +1,42 @@
-Pipe
-============
+#Pipe
 
 A PSR-15 handler with no assumption
 
-#License
+##License
 Pipe is licensed under the MIT license.
 
-#Installation
+##Installation
 
-    composer require gamringer/pipe
+```bash
+composer require gamringer/pipe
+````
 
-##Tests
+###Tests
 
-    composer install
-    phpunit
+```bash
+composer install
+phpunit
+```
 
-#Documentation
+##Documentation
 
-    $request = // Some PSR-7 ServerRequest object
+```php
+<?php
+$request = // Some PSR-7 ServerRequest object
 
-    // Pipe can be created from a stack
-    $pipe = new \gamringer\Pipe\Pipe([
-        new \gamringer\Pipe\Example\FooMiddleware('1'),
-    ]);
+// Pipe can be created from a stack
+$pipe = new \gamringer\Pipe\Pipe([
+    new \gamringer\Pipe\Example\FooMiddleware('1'),
+]);
 
-    // New middlewares can be stacked on top of existing ones
-    $pipe->push(new \gamringer\Pipe\Example\StaticMiddleware(new \GuzzleHttp\Psr7\Response()));
+// New middlewares can be stacked on top of existing ones
+$pipe->push(new \gamringer\Pipe\Example\StaticMiddleware(new \GuzzleHttp\Psr7\Response()));
 
-    // Pipe responds to RequestHandler handle() method
-    $response = $pipe->handle($request);
+// Pipe responds to RequestHandler handle() method
+$response = $pipe->handle($request);
 
-    // Pipe also responds to Middleware process() method such that it can be nested in a Middleware stack
-    $pipe2 = new \gamringer\Pipe\Pipe();
-    $pipe2->push($pipe);
-    $response = $pipe2->handle($request);
+// Pipe also responds to Middleware process() method such that it can be nested in a Middleware stack
+$pipe2 = new \gamringer\Pipe\Pipe();
+$pipe2->push($pipe);
+$response = $pipe2->handle($request);
+```
