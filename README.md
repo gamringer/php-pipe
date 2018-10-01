@@ -8,14 +8,14 @@ Pipe is licensed under the MIT license.
 ##Installation
 
 ```bash
-composer require gamringer/pipe
+$ composer require gamringer/pipe
 ````
 
 ###Tests
 
 ```bash
-composer install
-phpunit
+$ composer install
+$ phpunit
 ```
 
 ##Documentation
