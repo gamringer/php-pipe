@@ -72,4 +72,51 @@ class PipeTest extends TestCase
         $pipe = new Pipe([$middleware2, $middleware]);
         $this->assertSame($pipe->handle($request), $middleware2->getResponse());
     }
+
+    public function testPipeCanBeNestedAsAMiddleware()
+    {
+        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+
+        $middleware = new gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
+
+        $pipe = new Pipe([$middleware]);
+        $pipe2 = new Pipe([$pipe]);
+        $this->assertSame($pipe2->handle($request), $middleware->getResponse());
+    }
+
+    public function testEmptyPipeThrowsTerminalException()
+    {
+        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+
+        $pipe = new Pipe();
+
+        $this->expectException(\gamringer\Pipe\TerminalException::class);
+        $pipe->handle($request);
+    }
+
+    public function testThrownTerminalExceptionContainsOriginalRequest()
+    {
+        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+
+        $pipe = new Pipe();
+
+        try {
+            $pipe->handle($request);
+            $this->fail();
+        } catch (\gamringer\Pipe\TerminalException $e) {
+            $this->assertSame($request, $e->getRequest());
+        }
+    }
+
+    public function testUnendingPipeThrowsTerminalException()
+    {
+        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+
+        $middleware = new gamringer\Pipe\Tests\Middlewares\NullMiddleware();
+
+        $pipe = new Pipe([$middleware]);
+
+        $this->expectException(\gamringer\Pipe\TerminalException::class);
+        $pipe->handle($request);
+    }
 }

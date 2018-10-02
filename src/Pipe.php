@@ -39,8 +39,6 @@ class Pipe implements MiddlewareInterface, RequestHandlerInterface
 
     public function handle(ServerRequestInterface $request): ResponseInterface
     {
-        $consumer = new Consumer($this);
-
-        return $consumer->handle($request);
+        return (new Consumer($this))->handle($request);
     }
 }
