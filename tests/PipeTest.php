@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+namespace gamringer\Pipe\Tests;
+
 use PHPUnit\Framework\TestCase;
 use gamringer\Pipe\Pipe;
 
@@ -9,9 +11,9 @@ class PipeTest extends TestCase
 {
     public function testSingleStaticMiddlewareReturnsAResponse()
     {
-        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
 
-        $middleware = new gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
+        $middleware = new \gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
 
         $pipe = new Pipe([$middleware]);
         $this->assertSame($pipe->handle($request), $middleware->getResponse());
@@ -22,9 +24,9 @@ class PipeTest extends TestCase
      */
     public function testOnlyCreateFromMiddlewareInterfaces($invalidMiddleware)
     {
-        $this->expectException(TypeError::class);
+        $this->expectException(\TypeError::class);
 
-        $pipe = new Pipe([$invalidMiddleware]);
+        new Pipe([$invalidMiddleware]);
     }
 
     /**
@@ -32,7 +34,7 @@ class PipeTest extends TestCase
      */
     public function testOnlyAddMiddlewareInterfaces($invalidMiddleware)
     {
-        $this->expectException(TypeError::class);
+        $this->expectException(\TypeError::class);
 
         $pipe = new Pipe();
         $pipe->push($invalidMiddleware);
@@ -61,10 +63,10 @@ class PipeTest extends TestCase
 
     public function testMiddlewareOrderMatters()
     {
-        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
 
-        $middleware = new gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
-        $middleware2 = new gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
+        $middleware = new \gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
+        $middleware2 = new \gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
 
         $pipe = new Pipe([$middleware, $middleware2]);
         $this->assertSame($pipe->handle($request), $middleware->getResponse());
@@ -75,9 +77,9 @@ class PipeTest extends TestCase
 
     public function testPipeCanBeNestedAsAMiddleware()
     {
-        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
 
-        $middleware = new gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
+        $middleware = new \gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
 
         $pipe = new Pipe([$middleware]);
         $pipe2 = new Pipe([$pipe]);
@@ -86,7 +88,7 @@ class PipeTest extends TestCase
 
     public function testEmptyPipeThrowsTerminalException()
     {
-        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
 
         $pipe = new Pipe();
 
@@ -96,7 +98,7 @@ class PipeTest extends TestCase
 
     public function testThrownTerminalExceptionContainsOriginalRequest()
     {
-        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
 
         $pipe = new Pipe();
 
@@ -110,9 +112,9 @@ class PipeTest extends TestCase
 
     public function testUnendingPipeThrowsTerminalException()
     {
-        $request = new GuzzleHttp\Psr7\ServerRequest('GET', '/');
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
 
-        $middleware = new gamringer\Pipe\Tests\Middlewares\NullMiddleware();
+        $middleware = new \gamringer\Pipe\Tests\Middlewares\NullMiddleware();
 
         $pipe = new Pipe([$middleware]);
 

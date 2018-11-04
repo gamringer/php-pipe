@@ -6,8 +6,10 @@ namespace gamringer\Pipe;
 
 use \Psr\Http\Message\ServerRequestInterface;
 
-class TerminalException extends \Exception {
-
+class TerminalException extends \Exception
+{
+    protected $request;
+    
     public function __construct(ServerRequestInterface $request)
     {
         $this->request = $request;
