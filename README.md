@@ -39,4 +39,17 @@ $response = $pipe->handle($request);
 $pipe2 = new \gamringer\Pipe\Pipe();
 $pipe2->push($pipe);
 $response = $pipe2->handle($request);
+
+// If it runs out of middlewares to call, Pipe will respond differently depending on the way it was called.
+
+// If called as a RequestHandler, when running out of Middlewares, it will throw a TerminalException
+$pipe3 = new \gamringer\Pipe\Pipe();
+$response = $pipe3->handle($request); // Throws new \gamringer\Pipe\TerminalException()
+
+// If called as a Middleware, when running out of Middlewares itself, it will simply pass along to its next sibling
+$staticresponse = new \GuzzleHttp\Psr7\Response();
+$pipe4 = new \gamringer\Pipe\Pipe();
+$pipe4->push(new \gamringer\Pipe\Pipe());
+$pipe4->push(new \gamringer\Pipe\Example\StaticMiddleware($staticresponse));
+$response = $pipe4->handle($request); // returns $staticresponse
 ```
