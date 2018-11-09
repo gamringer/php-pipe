@@ -20,9 +20,9 @@ class FooMiddleware implements MiddlewareInterface
 
     public function process(ServerRequestInterface $request, RequestHandlerInterface $handler): ResponseInterface
     {
-        echo 'A' . $this->v . PHP_EOL;
+        echo 'Before delegation: ' . $this->v . PHP_EOL;
         $resp =  $handler->handle($request);
-        echo 'B' . $this->v . PHP_EOL;
+        echo 'After delegation: ' . $this->v . PHP_EOL;
 
         return $resp;
     }

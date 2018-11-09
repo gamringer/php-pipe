@@ -1,0 +1,960 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"middle",
+				"middleware2"
+			],
+			[
+				"repor",
+				"reporting_data"
+			],
+			[
+				"ca",
+				"campaignReview"
+			],
+			[
+				"where",
+				"whereClauses"
+			],
+			[
+				"repo",
+				"reportingDbId"
+			],
+			[
+				"adver",
+				"advertiserId"
+			],
+			[
+				"payout",
+				"payoutType"
+			],
+			[
+				"discu",
+				"DiscussionComment"
+			],
+			[
+				"discussion_commen",
+				"discussion_comment_id"
+			],
+			[
+				"Dicsussion",
+				"DiscussionAttachment"
+			],
+			[
+				"appro",
+				"approved_advertiser"
+			],
+			[
+				"disc",
+				"Discussion"
+			],
+			[
+				"discussion",
+				"discussion_id"
+			],
+			[
+				"_job",
+				"_job_fetch_3p_data_alexa"
+			],
+			[
+				"partner",
+				"partnership"
+			],
+			[
+				"defa",
+				"default_offer_id"
+			],
+			[
+				"social",
+				"social_audience"
+			],
+			[
+				"affi",
+				"affiliate"
+			],
+			[
+				"affili",
+				"affiliate_id"
+			],
+			[
+				"retu",
+				"returnExisting"
+			],
+			[
+				"item",
+				"itemUpdates"
+			],
+			[
+				"proper",
+				"property"
+			],
+			[
+				"channel",
+				"channelIds"
+			],
+			[
+				"chann",
+				"channelIds"
+			],
+			[
+				"cooki",
+				"cookieInfo"
+			],
+			[
+				"result",
+				"resultCount"
+			],
+			[
+				"reindex",
+				"reindexing"
+			],
+			[
+				"reinde",
+				"reindexing"
+			],
+			[
+				"title",
+				"titleNode"
+			],
+			[
+				"date",
+				"dateNode"
+			],
+			[
+				"content",
+				"contentNode"
+			],
+			[
+				"creato",
+				"creatorNode"
+			],
+			[
+				"blogs",
+				"blogResults"
+			],
+			[
+				"blo",
+				"blogResults"
+			],
+			[
+				"link",
+				"linkHost"
+			],
+			[
+				"feed",
+				"feedrss"
+			],
+			[
+				"array_s",
+				"array_sum"
+			],
+			[
+				"conta",
+				"contactPages"
+			],
+			[
+				"token",
+				"tokenCredentials"
+			],
+			[
+				"arra",
+				"array_keys"
+			],
+			[
+				"dec",
+				"dechex"
+			],
+			[
+				"block",
+				"blocksize"
+			],
+			[
+				"file",
+				"filesize"
+			],
+			[
+				"parse",
+				"parse_url"
+			],
+			[
+				"sec",
+				"secPage"
+			],
+			[
+				"_job_",
+				"_job_analyze_yweb_result"
+			],
+			[
+				"Cr",
+				"Crypto"
+			],
+			[
+				"htmlen",
+				"html_entity_decode"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"alexa",
+				"alexaRes"
+			],
+			[
+				"report",
+				"reporting"
+			],
+			[
+				"query",
+				"queryParams"
+			],
+			[
+				"pro",
+				"property"
+			],
+			[
+				"json",
+				"json_encode"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"conne",
+				"connected"
+			],
+			[
+				"connec",
+				"connect"
+			],
+			[
+				"last",
+				"lastManagerBeat"
+			],
+			[
+				"worker",
+				"workerid"
+			],
+			[
+				"base",
+				"base_string"
+			],
+			[
+				"job",
+				"jobtype"
+			],
+			[
+				"call_user",
+				"call_user_method"
+			],
+			[
+				"_",
+				"_command"
+			],
+			[
+				"_chil",
+				"_childrenCount"
+			],
+			[
+				"pcntl_sign",
+				"pcntl_signal_dispatch"
+			],
+			[
+				"child",
+				"childpid"
+			],
+			[
+				"getpid",
+				"getmypid"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"curre",
+				"currentChannelID"
+			],
+			[
+				"invoite",
+				"invoiceItem"
+			],
+			[
+				"affiliate",
+				"affiliate_commission"
+			],
+			[
+				"invoice",
+				"invoiceItem"
+			],
+			[
+				"adverti",
+				"advertiser"
+			],
+			[
+				"users",
+				"usersLeft"
+			],
+			[
+				"campai",
+				"campaignsLeft"
+			],
+			[
+				"ad",
+				"advertiser"
+			],
+			[
+				"Campaign",
+				"CampaignReview"
+			],
+			[
+				"invoi",
+				"invoiceItem"
+			],
+			[
+				"route",
+				"routedCampaign"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"Adver",
+				"AdvertiserAccount"
+			],
+			[
+				"aDVERTI",
+				"AdvertiserAccount"
+			],
+			[
+				"inln",
+				"inline-block"
+			],
+			[
+				"trans",
+				"transfers"
+			],
+			[
+				"creati",
+				"creativeDeleteButtonClick"
+			],
+			[
+				"pop",
+				"popover"
+			],
+			[
+				"cre",
+				"creative"
+			],
+			[
+				"offer",
+				"offer"
+			],
+			[
+				"Crea",
+				"Creative"
+			],
+			[
+				"tmp",
+				"tmpOfferAssets"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tmp_",
+				"tmp_offer_assets"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"advertiser",
+				"advertiser_id"
+			],
+			[
+				"Cover",
+				"CoverImage"
+			],
+			[
+				"reque",
+				"requestEntry"
+			],
+			[
+				"campaign",
+				"campaign_id"
+			],
+			[
+				"req",
+				"requestID"
+			],
+			[
+				"Traf",
+				"TrafficSource"
+			],
+			[
+				"traff",
+				"trafficSources"
+			],
+			[
+				"tra",
+				"trafficSources"
+			],
+			[
+				"new",
+				"new_variables"
+			],
+			[
+				"UR",
+				"URLRedirect"
+			],
+			[
+				"http_buil",
+				"http_build_query"
+			],
+			[
+				"chan",
+				"channelNames"
+			],
+			[
+				"_defa",
+				"_default_controller"
+			],
+			[
+				"cache",
+				"cacheKey"
+			],
+			[
+				"cach",
+				"cacheKeys"
+			],
+			[
+				"_cooki",
+				"_cookieFilePath"
+			],
+			[
+				"download",
+				"downloadsiteinfo"
+			],
+			[
+				"login",
+				"loginDownloadSite"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"parent",
+				"parentView"
+			],
+			[
+				"show",
+				"showVideoPlayer"
+			],
+			[
+				"goto",
+				"go-to-file"
+			],
+			[
+				"w",
+				"workhorses"
+			],
+			[
+				"OPENSSL",
+				"OPENSSL_LIBDIR"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/wilhelm/Projects/jose-chacha-rfc/Makefile",
+			"settings":
+			{
+				"buffer_size": 502,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/wilhelm/Projects/jose-chacha-rfc/jose-chacha.md",
+			"settings":
+			{
+				"buffer_size": 5658,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ifn",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #ifndef … #define … #endif"
+			],
+			[
+				"svn status",
+				"SVN: Status"
+			],
+			[
+				"svn add",
+				"SVN: Add, Interactive…"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"SVN: Add, Interactive…"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"cd /home/wilhelm"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/wilhelm/Projects/jose-chacha-rfc"
+	],
+	"file_history":
+	[
+		"/home/wilhelm/Projects/jose-chacha-rfc/jose-chacha.md",
+		"/home/wilhelm/Projects/jose-chacha-rfc/.gitignore",
+		"/home/wilhelm/Projects/php-pipe/README.md",
+		"/home/wilhelm/Projects/php-pipe/LICENSE",
+		"/home/wilhelm/Projects/php-pipe/.phan/config.php",
+		"/home/wilhelm/Projects/php-pipe/tests/Middlewares/StaticMiddleware.php",
+		"/home/wilhelm/Projects/php-pipe/tests/PipeTest.php",
+		"/home/wilhelm/Projects/php-pipe/tests/TerminalExceptionTest.php",
+		"/home/wilhelm/Projects/php-pipe/tests/ConsumerTest.php",
+		"/home/wilhelm/Projects/php-pipe/src/TerminalException.php",
+		"/home/wilhelm/Projects/php-pipe/composer.json",
+		"/home/wilhelm/Desktop/Personal/keep/tutelle-martin/notes-20181004",
+		"/home/wilhelm/Projects/php-pipe/vendor/psr/http-message/src/ServerRequestInterface.php",
+		"/home/wilhelm/Projects/php-pipe/example/example1.php",
+		"/home/wilhelm/Projects/php-pipe/tests/Middlewares/NullMiddleware.php",
+		"/home/wilhelm/Projects/php-pipe/src/Pipe.php",
+		"/home/wilhelm/Projects/php-pipe/src/Consumer.php",
+		"/home/wilhelm/Projects/php-pipe/vendor/phpunit/phpunit/src/Framework/TestCase.php",
+		"/home/wilhelm/Projects/php-pipe/phpunit.xml",
+		"/home/wilhelm/Projects/php-pipe/.gitignore",
+		"/home/wilhelm/Projects/php-pipe/vendor/guzzlehttp/psr7/src/Response.php",
+		"/home/wilhelm/Projects/php-pipe/example/FooMiddleware.php",
+		"/home/wilhelm/Projects/php-pipe/example/example2.php",
+		"/home/wilhelm/Projects/php-pipe/src/QueueConsumer.php",
+		"/home/wilhelm/Projects/php-pipe/example/StaticMiddleware.php",
+		"/home/wilhelm/Projects/php-pipe/src/Queue.php",
+		"/home/wilhelm/Projects/php-pipe/src/../example/StaticMiddleware.php",
+		"/home/wilhelm/Projects/php-pipe/src/QueueIteratingHandler.php",
+		"/home/wilhelm/Projects/php-pipe/vendor/guzzlehttp/psr7/src/ServerRequest.php",
+		"/home/wilhelm/Projects/php-pipe/vendor/psr/http-server-middleware/src/MiddlewareInterface.php",
+		"/home/wilhelm/Projects/php-pipe/vendor/composer/autoload_classmap.php",
+		"/home/wilhelm/Projects/php-pipe/vendor/composer/autoload_real.php",
+		"/home/wilhelm/Projects/php-pipe/vendor/psr/http-server-handler/src/RequestHandlerInterface.php",
+		"/home/wilhelm/Projects/testcpp/include/IdentityScanner.h",
+		"/home/wilhelm/Projects/testcpp/src/IdentityScanner.cc",
+		"/home/wilhelm/Projects/testcpp/src/vvc.cc",
+		"/home/wilhelm/Projects/testcpp/include/Identity.h",
+		"/home/wilhelm/Projects/testcpp/src/Identity.cc",
+		"/home/wilhelm/Projects/testcpp/Makefile",
+		"/home/wilhelm/Projects/testcpp/src/VersaClient.cc",
+		"/home/wilhelm/Projects/testcpp/include/VersaClient.h",
+		"/home/wilhelm/Downloads/pkcs11.h",
+		"/home/wilhelm/Downloads/pkcs11f.h",
+		"/home/wilhelm/Downloads/pkcs11t.h",
+		"/usr/include/pkcs11-helper-1.0/pkcs11.h",
+		"/home/wilhelm/Projects/openssl/Makefile",
+		"/home/wilhelm/Projects/testcpp/src/vvc.cpp",
+		"/home/wilhelm/Projects/testcpp/src/Identity.cpp",
+		"/home/wilhelm/Projects/testcpp/src/VersaClient.cpp",
+		"/home/wilhelm/Projects/testcpp/include/DiscoveryClient.h",
+		"/home/wilhelm/Projects/testcpp/src/allo.cpp",
+		"/home/wilhelm/Projects/openssl/crypto/x509/t_x509.c",
+		"/home/wilhelm/Projects/openssl/crypto/ec/curve25519.d",
+		"/home/wilhelm/Desktop/gamrdev Upgrade",
+		"/home/wilhelm/Projects/openssl/crypto/ec/curve448/eddsa.c",
+		"/home/wilhelm/Projects/openssl/crypto/ec/curve25519.c",
+		"/home/wilhelm/Projects/openssl/crypto/asn1/standard_methods.h",
+		"/home/wilhelm/448ca/_userenc",
+		"/home/wilhelm/448ca/newroot",
+		"/home/wilhelm/448ca/ca-start",
+		"/home/wilhelm/448ca/_common",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Accounts/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/AdvertiserAccounts/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Advertisers/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Advertisers/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Affiliates/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Affiliates/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/CampaignReviews/view.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Campaigns/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Campaigns/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Checks/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Discussions/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Disputes/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Layout/default.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Layout/marketplace.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Layout/outreach.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Layout/replay.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/OfferReviews/view.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Offers/edit.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Offers/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Packages/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/admin/views/Users/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Access/login.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Access/post_register_modal.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/dashboard.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/new_account_steps.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/permissions.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/profile.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/settings.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/user.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/user_list_box.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Account/users.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Advertisers/profile.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/CampaignReview/review_list_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/CampaignReview/side_box.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Campaigns/browse.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Campaigns/request.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Campaigns/request_table_row_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Campaigns/table_row_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Campaigns/table_row_widget_medium.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Campaigns/view.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Default/welcome.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/attachment_campaign.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/attachment_offer.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/attachment_partnership.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/post.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/row_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Discussion/view.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/attach_funds_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/deposit_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/detach_funds_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/invoice_view.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/invoices.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/settings.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/transaction_row_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/withdraw.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Finances/withdraw_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/KeyPairs/list.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Marketplace/dashboard.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/OfferReview/review_list_widget.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/OfferReview/side_box.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/OfferReview/view.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Offers/addons.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Offers/browse.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Offers/mine.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Offers/post.tpl.php",
+		"/home/wilhelm/Projects/clicko/tracking.clicko.local/Apps/advertiser/views/Offers/selector_widget.tpl.php"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 161.0,
+		"where_history":
+		[
+			"/home/wilhelm/Projects/php-pipe/src",
+			"/home/wilhelm/Projects/openssl/crypto"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"new Guzz",
+			"$mw",
+			"QueueConsumer",
+			"Queue",
+			"v",
+			"stack",
+			"initialStack",
+			"stack",
+			"Stack",
+			"stack",
+			"Stack",
+			"idList",
+			"Identity",
+			"include ",
+			"card",
+			"listAvailableIdentities",
+			"client2",
+			"LIB_LIBS",
+			"CLI_LIBS",
+			"CLI_",
+			"libvv",
+			"vv",
+			"build",
+			"-I include",
+			"Identity",
+			"name",
+			"Idnetity",
+			"VersaClient",
+			"char[]",
+			"main",
+			"VERSACLIENT_H",
+			"VersaClient",
+			"VERSACLIENT_H",
+			"SYMBOL",
+			"test",
+			".d",
+			"x448",
+			"448"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/wilhelm/Projects/jose-chacha-rfc/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+							],
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/wilhelm/Projects/jose-chacha-rfc/jose-chacha.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5658,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.20.region_keys":
+							[
+							],
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 71.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jose-chacha-rfc.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/php-pipe.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 49.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 792.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 398.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
