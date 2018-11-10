@@ -20,6 +20,17 @@ class PipeTest extends TestCase
     }
 
     /**
+     * @dataProvider validInitialStackProvider
+     */
+    public function testCreateFromAnyIterable($expectedResponse, $validInitialStack)
+    {
+        $request = new \GuzzleHttp\Psr7\ServerRequest('GET', '/');
+
+        $pipe = new Pipe($validInitialStack);
+        $this->assertSame($pipe->handle($request), $expectedResponse);
+    }
+
+    /**
      * @dataProvider invalidMiddlewareProvider
      */
     public function testOnlyCreateFromMiddlewareInterfaces($invalidMiddleware)
@@ -38,6 +49,20 @@ class PipeTest extends TestCase
 
         $pipe = new Pipe();
         $pipe->push($invalidMiddleware);
+    }
+
+    public function validInitialStackProvider()
+    {
+        $middleware = new \gamringer\Pipe\Tests\Middlewares\StaticMiddleware();
+        $expectedResponse = $middleware->getResponse();
+
+        $dll = new \SplDoublyLinkedList();
+        $dll->push($middleware);
+
+        return [
+            'array' => [$expectedResponse, [$middleware]],
+            'SplDoublyLinkedList' => [$expectedResponse, $dll],
+        ];
     }
 
     public function invalidMiddlewareProvider()
